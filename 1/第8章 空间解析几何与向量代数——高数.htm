@@ -1,0 +1,2662 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="第8章%20空间解析几何与向量代数——高数.files/filelist.xml">
+<link rel=Edit-Time-Data href="第8章%20空间解析几何与向量代数——高数.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>kl</o:Author>
+  <o:LastAuthor>kl</o:LastAuthor>
+  <o:Revision>1</o:Revision>
+  <o:TotalTime>10</o:TotalTime>
+  <o:Created>2021-06-13T12:38:00Z</o:Created>
+  <o:LastSaved>2021-06-13T12:48:00Z</o:LastSaved>
+  <o:Pages>23</o:Pages>
+  <o:Words>752</o:Words>
+  <o:Characters>4293</o:Characters>
+  <o:Lines>35</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5035</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="第8章%20空间解析几何与向量代数——高数.files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="第8章%20空间解析几何与向量代数——高数.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="0" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="0" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-alt:SimHei;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:等线;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:DengXian;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:"等线 Light";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073741899 0 0 159 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:"\@等线 Light";
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.55pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+h1
+	{mso-style-update:auto;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 1 字符";
+	mso-style-next:正文;
+	margin-top:5.0pt;
+	margin-right:1.4pt;
+	margin-bottom:5.0pt;
+	margin-left:15.0pt;
+	mso-para-margin-top:1.0gd;
+	mso-para-margin-right:1.4pt;
+	mso-para-margin-bottom:1.0gd;
+	mso-para-margin-left:15.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-15.0pt;
+	mso-char-indent-count:-3.0;
+	line-height:150%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l3 level1 lfo13;
+	font-size:16.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:黑体;
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:22.0pt;}
+h2
+	{mso-style-update:auto;
+	mso-style-qformat:yes;
+	mso-style-parent:"标题 1";
+	mso-style-link:"标题 2 字符";
+	mso-style-next:正文;
+	margin-top:5.0pt;
+	margin-right:1.4pt;
+	margin-bottom:2.5pt;
+	margin-left:7.5pt;
+	mso-para-margin-top:1.0gd;
+	mso-para-margin-right:1.4pt;
+	mso-para-margin-bottom:.5gd;
+	mso-para-margin-left:7.5pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-7.5pt;
+	mso-char-indent-count:-1.5;
+	line-height:150%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l3 level2 lfo6;
+	font-size:14.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:22.0pt;}
+h3
+	{mso-style-update:auto;
+	mso-style-qformat:yes;
+	mso-style-parent:"标题 2";
+	mso-style-link:"标题 3 字符";
+	mso-style-next:正文;
+	margin-top:5.0pt;
+	margin-right:1.4pt;
+	margin-bottom:2.5pt;
+	margin-left:12.5pt;
+	mso-para-margin-top:1.0gd;
+	mso-para-margin-right:1.4pt;
+	mso-para-margin-bottom:.5gd;
+	mso-para-margin-left:12.5pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-12.5pt;
+	mso-char-indent-count:-2.5;
+	line-height:150%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-list:l3 level3 lfo13;
+	font-size:12.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:22.0pt;
+	mso-bidi-font-weight:normal;}
+h4
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 4 字符";
+	mso-style-next:正文;
+	margin-top:14.0pt;
+	margin-right:1.4pt;
+	margin-bottom:14.5pt;
+	margin-left:.55pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.55pt;
+	line-height:156%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:14.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"等线 Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"等线 Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:black;
+	mso-font-kerning:1.0pt;}
+h5
+	{mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 5 字符";
+	mso-style-next:正文;
+	margin-top:14.0pt;
+	margin-right:1.4pt;
+	margin-bottom:14.5pt;
+	margin-left:.55pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.55pt;
+	line-height:156%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 字符";
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-.55pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 字符";
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-indent:-.55pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:2.5pt;
+	margin-right:0cm;
+	margin-bottom:2.5pt;
+	margin-left:0cm;
+	mso-para-margin-top:.5gd;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:.5gd;
+	mso-para-margin-left:0cm;
+	text-align:center;
+	mso-pagination:none;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+span.a
+	{mso-style-name:"页眉 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.a0
+	{mso-style-name:"页脚 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.1
+	{mso-style-name:"标题 1 字符";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 1";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:黑体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2
+	{mso-style-name:"标题 2 字符";
+	mso-style-priority:2;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 2";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.3
+	{mso-style-name:"标题 3 字符";
+	mso-style-priority:3;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:22.0pt;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.a1, li.a1, div.a1
+	{mso-style-name:图表标题;
+	mso-style-update:auto;
+	mso-style-priority:4;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"图表标题 字符";
+	mso-style-next:正文;
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+span.a2
+	{mso-style-name:"图表标题 字符";
+	mso-style-priority:4;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:图表标题;
+	font-family:宋体;
+	mso-fareast-font-family:宋体;}
+span.4
+	{mso-style-name:"标题 4 字符";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 4";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"等线 Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"等线 Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:black;
+	font-weight:bold;}
+span.5
+	{mso-style-name:"标题 5 字符";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 5";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	font-weight:bold;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-bidi-font-size:10.5pt;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("第8章%20空间解析几何与向量代数——高数.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("第8章%20空间解析几何与向量代数——高数.files/header.htm") fcs;
+	mso-endnote-separator:url("第8章%20空间解析几何与向量代数——高数.files/header.htm") es;
+	mso-endnote-continuation-separator:url("第8章%20空间解析几何与向量代数——高数.files/header.htm") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:59523345;
+	mso-list-template-ids:1767654512;}
+@list l0:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l0:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l0:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:42.55pt;}
+@list l0:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l0:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l0:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l0:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l0:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l0:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l1
+	{mso-list-id:584412840;
+	mso-list-template-ids:1767654512;}
+@list l1:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l1:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l1:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:42.55pt;}
+@list l1:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l1:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l1:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l1:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l1:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l1:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l2
+	{mso-list-id:819426123;
+	mso-list-template-ids:1377453608;}
+@list l2:level1
+	{mso-level-style-link:"标题 1";
+	mso-level-text:第%1章;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l2:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l2:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:42.55pt;}
+@list l2:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l2:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l2:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l2:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l2:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l2:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l3
+	{mso-list-id:1011877100;
+	mso-list-template-ids:-100788382;}
+@list l3:level1
+	{mso-level-style-link:"标题 1";
+	mso-level-text:第%1章;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l3:level2
+	{mso-level-style-link:"标题 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l3:level3
+	{mso-level-style-link:"标题 3";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:42.55pt;}
+@list l3:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l3:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l3:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l3:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l3:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l3:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l4
+	{mso-list-id:1420907107;
+	mso-list-template-ids:67698717;}
+@list l4:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l4:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l4:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-1.0cm;}
+@list l4:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l4:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l4:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l4:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l4:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l4:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l5
+	{mso-list-id:1937976240;
+	mso-list-template-ids:-210710816;}
+@list l5:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l5:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l5:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l5:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l5:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l5:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l5:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l5:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l5:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第1章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>空间解析几何与向量代数</span><span lang=EN-US
+style='background:#FFEEBF'><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第2章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>空间解析几何与向量代数</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<p class=MsoNormal><span lang=EN-US style='mso-fareast-font-family:等线;
+mso-fareast-theme-font:minor-fareast'><o:p>&nbsp;</o:p></span></p>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第3章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>空间解析几何与向量代数</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<p class=MsoNormal><span lang=EN-US style='mso-fareast-font-family:等线;
+mso-fareast-theme-font:minor-fareast'><o:p>&nbsp;</o:p></span></p>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第4章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>空间解析几何与向量代数</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第5章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>空间解析几何与向量代数</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第6章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>空间解析几何与向量代数</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第7章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>空间解析几何与向量代数</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第8章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>空间解析几何与向量代数</span><a name="_RefB13E40B4"></a><a
+href="marginnoteapp://note/0FACC693-840E-4DD4-9A21-0BB5B13E40B4"><span
+style='mso-bookmark:_RefB13E40B4'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'> </span></span></a><span
+style='mso-bookmark:_RefB13E40B4'></span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.1<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>向量及其线性运算</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref66545D90"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0039_eb51aeb48712ee9d5cbe1b34b965bb0" o:spid="_x0000_i1062"
+ type="#_x0000_t75" style='width:352.2pt;height:141.6pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=236
+src="第8章%20空间解析几何与向量代数——高数.files/image002.png" v:shapes="_x0039_eb51aeb48712ee9d5cbe1b34b965bb0"><![endif]></span></a><a
+href="marginnoteapp://note/574EF683-560C-4E2E-BFE5-B76A66545D90"><span
+style='mso-bookmark:_Ref66545D90'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref66545D90'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>向量、矢量</span><span
+lang=EN-US style='background:#FFEEBF'><span style='mso-spacerun:yes'>&nbsp;
+</span></span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:
+#FFEEBF'>单位向量、零向量、自由向量</span><span lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>相等、共线、共面</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefF4B2222F"></a><a
+href="marginnoteapp://note/61BE0A04-1CAC-44DD-BA32-880DF4B2222F"><span
+style='mso-bookmark:_RefF4B2222F'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefF4B2222F'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>向量的线性运算</span><a
+name="_RefD2E90CE1"></a><a
+href="marginnoteapp://note/BED6758D-C958-4418-B78F-FB39D2E90CE1"><span
+style='mso-bookmark:_RefD2E90CE1'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'> </span></span></a><span
+style='mso-bookmark:_RefD2E90CE1'></span><span lang=EN-US><o:p></o:p></span></h3>
+
+<h4 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt'><span style='background:#FFEEBF'>向量的加法</span><span
+lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref9E3E9DF1"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="c211e4a640a47f941e212ac820adf2cf" o:spid="_x0000_i1061" type="#_x0000_t75"
+ style='width:327.6pt;height:184.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=308
+src="第8章%20空间解析几何与向量代数——高数.files/image004.png" v:shapes="c211e4a640a47f941e212ac820adf2cf"><![endif]></span></a><a
+href="marginnoteapp://note/B85D540E-8682-45ED-B3BA-80ED9E3E9DF1"><span
+style='mso-bookmark:_Ref9E3E9DF1'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref9E3E9DF1'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>三角形法则，平行四边形法则，交换律，结合律</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref78EDED87"></a><a
+href="marginnoteapp://note/DA91C250-986D-4435-8E9D-000178EDED87"><span
+style='mso-bookmark:_Ref78EDED87'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref78EDED87'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h4 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt'><span style='background:#FFEEBF'>向量与数的乘法：结合律、分配律</span><span
+lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref084ED6C7"></a><a
+href="marginnoteapp://note/E43F56A9-8ACE-47BD-B800-4DDE084ED6C7"><span
+style='mso-bookmark:_Ref084ED6C7'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref084ED6C7'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref66755A42"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_0b51f67466478ac471fcc89634b7de6" o:spid="_x0000_i1060" type="#_x0000_t75"
+ style='width:315.6pt;height:79.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=526 height=133
+src="第8章%20空间解析几何与向量代数——高数.files/image006.png" v:shapes="_x0036_0b51f67466478ac471fcc89634b7de6"><![endif]></span></a><a
+href="marginnoteapp://note/15F8A43C-D7EB-4AE8-8A73-C72A66755A42"><span
+style='mso-bookmark:_Ref66755A42'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref66755A42'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h4 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt'><span style='background:#FFEEBF'>两向量平行的充要条件：两向量是线性关系。</span><span
+lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref375709CF"></a><a
+href="marginnoteapp://note/43BB1221-E0E2-41F3-85F0-DBE6375709CF"><span
+style='mso-bookmark:_Ref375709CF'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref375709CF'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.1.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>空间直角坐标系</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref8036CA1C"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0032_4b417e49936d5a793817e0d886bdd66" o:spid="_x0000_i1059" type="#_x0000_t75"
+ style='width:340.2pt;height:209.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image007.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=349
+src="第8章%20空间解析几何与向量代数——高数.files/image008.png" v:shapes="_x0032_4b417e49936d5a793817e0d886bdd66"><![endif]></span></a><a
+href="marginnoteapp://note/AF16BF10-01E6-4CDD-9F34-4EC58036CA1C"><span
+style='mso-bookmark:_Ref8036CA1C'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref8036CA1C'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>右手法则</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref9B0BA0F6"></a><a
+href="marginnoteapp://note/4E580ED7-7E06-4C13-9AD7-E3069B0BA0F6"><span
+style='mso-bookmark:_Ref9B0BA0F6'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref9B0BA0F6'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h4 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt'><span style='background:#FFEEBF'>利用坐标向量的线性运算</span><span
+lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefA46A6131"></a><a
+href="marginnoteapp://note/FC677256-9D19-4886-8C39-C0B8A46A6131"><span
+style='mso-bookmark:_RefA46A6131'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefA46A6131'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h4 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt'><span style='background:#FFEEBF'>向量的模、方向角、投影</span><span
+lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref74B8F3E8"></a><a
+href="marginnoteapp://note/CFE78086-523B-4BE0-80B2-A0B974B8F3E8"><span
+style='mso-bookmark:_Ref74B8F3E8'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref74B8F3E8'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h5><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>向量的模</span><span
+lang=EN-US style='background:#FFEEBF'>与</span><span style='font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+background:#FFEEBF'>两点间的距离公式</span><span lang=EN-US><o:p></o:p></span></h5>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref0693E4BB"></a><a
+href="marginnoteapp://note/5032855B-CB11-4BDE-BED4-EEF60693E4BB"><span
+style='mso-bookmark:_Ref0693E4BB'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref0693E4BB'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h5><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>方向角：非零向量与三条坐标轴的夹角</span><span
+lang=EN-US><br>
+</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>方向余弦</span><span
+lang=EN-US><o:p></o:p></span></h5>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref9DFA6C97"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="ea94e3ae42b940f42e49483485041a6d" o:spid="_x0000_i1058" type="#_x0000_t75"
+ style='width:327.6pt;height:129pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=215
+src="第8章%20空间解析几何与向量代数——高数.files/image010.png" v:shapes="ea94e3ae42b940f42e49483485041a6d"><![endif]></span></a><a
+href="marginnoteapp://note/2FF95309-EB55-466D-AE4E-5DF59DFA6C97"><span
+style='mso-bookmark:_Ref9DFA6C97'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref9DFA6C97'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>方向余弦平方和为</span><span
+lang=EN-US style='background:#FFEEBF'>1</span><span lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>方向余弦向量是单位向量</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefB4A95632"></a><a
+href="marginnoteapp://note/C97A5BBA-4670-4042-A55F-6851B4A95632"><span
+style='mso-bookmark:_RefB4A95632'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefB4A95632'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h4 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt'><span style='background:#FFEEBF'>向量在轴上的投影：坐标</span><span
+lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref4D95E180"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_f7a5fa0df7f3d9323c6f7b160741534" o:spid="_x0000_i1057" type="#_x0000_t75"
+ style='width:327.6pt;height:163.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image011.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=273
+src="第8章%20空间解析几何与向量代数——高数.files/image012.png" v:shapes="_x0036_f7a5fa0df7f3d9323c6f7b160741534"><![endif]></span></a><a
+href="marginnoteapp://note/DC790C31-839C-4F63-AD41-85A94D95E180"><span
+style='mso-bookmark:_Ref4D95E180'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref4D95E180'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref32B0CF42"></a><a
+href="marginnoteapp://note/9349AB30-7503-48C3-A1A0-6B8132B0CF42"><span
+style='mso-bookmark:_Ref32B0CF42'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref32B0CF42'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.2<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>数量积、向量积、混合积</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefE164F593"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="e6690087c641ec1887dfce104b9e0290" o:spid="_x0000_i1056" type="#_x0000_t75"
+ style='width:352.2pt;height:184.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image013.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=307
+src="第8章%20空间解析几何与向量代数——高数.files/image014.png" v:shapes="e6690087c641ec1887dfce104b9e0290"><![endif]></span></a><a
+href="marginnoteapp://note/1AD4EACA-D917-4867-BF20-2D24E164F593"><span
+style='mso-bookmark:_RefE164F593'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefE164F593'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.2.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>数量积：点积，结果为数，模积乘夹角余弦</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref77F2FA6A"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0033_2ecd0a54951e85c7616efb7f7925b7c" o:spid="_x0000_i1055" type="#_x0000_t75"
+ style='width:340.2pt;height:649.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=1083
+src="第8章%20空间解析几何与向量代数——高数.files/image016.png" v:shapes="_x0033_2ecd0a54951e85c7616efb7f7925b7c"><![endif]></span></a><a
+href="marginnoteapp://note/7A249E56-6DDD-4D2A-8C77-01D777F2FA6A"><span
+style='mso-bookmark:_Ref77F2FA6A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref77F2FA6A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>交换律，分配律，结合律。</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefE448632C"></a><a
+href="marginnoteapp://note/7673D843-9E08-44DF-9898-768EE448632C"><span
+style='mso-bookmark:_RefE448632C'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefE448632C'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>向量积：叉积，结果为向量，模为模积乘夹角余弦</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefB52C429B"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_5987628bf230ea9c3141f3d9d6ce97e" o:spid="_x0000_i1054" type="#_x0000_t75"
+ style='width:340.2pt;height:111pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=185
+src="第8章%20空间解析几何与向量代数——高数.files/image018.png" v:shapes="_x0036_5987628bf230ea9c3141f3d9d6ce97e"><![endif]></span></a><a
+href="marginnoteapp://note/C68E1CE3-3974-4C68-AF07-F9F3B52C429B"><span
+style='mso-bookmark:_RefB52C429B'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefB52C429B'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>右手法则</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref82EA97AF"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0031_626127a0620b649d8c93f84977f7d8d" o:spid="_x0000_i1053" type="#_x0000_t75"
+ style='width:328.2pt;height:661.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=547 height=1102
+src="第8章%20空间解析几何与向量代数——高数.files/image020.png" v:shapes="_x0031_626127a0620b649d8c93f84977f7d8d"><![endif]></span></a><a
+href="marginnoteapp://note/2EF66F3E-3905-4249-AD54-B21282EA97AF"><span
+style='mso-bookmark:_Ref82EA97AF'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref82EA97AF'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>平行向量向量积为零向量</span><span
+lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>分配律、结合律、行列式</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref7DC6E358"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="b0ce0a0f5da00d61b5ee0208e0f67cd1" o:spid="_x0000_i1052" type="#_x0000_t75"
+ style='width:352.2pt;height:411.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image021.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=686
+src="第8章%20空间解析几何与向量代数——高数.files/image022.png" v:shapes="b0ce0a0f5da00d61b5ee0208e0f67cd1"><![endif]></span></a><a
+href="marginnoteapp://note/6ACCEDBD-0533-4DA5-BE5E-800E7DC6E358"><span
+style='mso-bookmark:_Ref7DC6E358'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref7DC6E358'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.2.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>混合积：叉乘后点乘，绝对值为平行六面体的体职</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefA67CFC8A"></a><a
+href="marginnoteapp://note/AA58079C-58C9-4212-97FF-19A4A67CFC8A"><span
+style='mso-bookmark:_RefA67CFC8A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefA67CFC8A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.3<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>曲面及其方程</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefE5BABA94"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0033_2dc11d92e8588d259ea5b5d15b8e294" o:spid="_x0000_i1051" type="#_x0000_t75"
+ style='width:352.2pt;height:156pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image023.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=260
+src="第8章%20空间解析几何与向量代数——高数.files/image024.png" v:shapes="_x0033_2dc11d92e8588d259ea5b5d15b8e294"><![endif]></span></a><a
+href="marginnoteapp://note/3D2943C0-8DF3-4711-B85D-4709E5BABA94"><span
+style='mso-bookmark:_RefE5BABA94'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefE5BABA94'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.3.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>曲面方程</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefE02F335D"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0039_ed032c9f1777bc2cbb2b354248311b6" o:spid="_x0000_i1050" type="#_x0000_t75"
+ style='width:352.2pt;height:115.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image025.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=193
+src="第8章%20空间解析几何与向量代数——高数.files/image026.png" v:shapes="_x0039_ed032c9f1777bc2cbb2b354248311b6"><![endif]></span></a><a
+href="marginnoteapp://note/2EC74AD9-689C-4A6B-BC6F-B5D6E02F335D"><span
+style='mso-bookmark:_RefE02F335D'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefE02F335D'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.3.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>球面</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref7DCC96E7"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0034_e35e47e9091fe6855491d4951651c8b" o:spid="_x0000_i1049" type="#_x0000_t75"
+ style='width:352.2pt;height:359.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image027.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=599
+src="第8章%20空间解析几何与向量代数——高数.files/image028.png" v:shapes="_x0034_e35e47e9091fe6855491d4951651c8b"><![endif]></span></a><a
+href="marginnoteapp://note/6134EC13-B4B9-4AB0-854A-9E1F7DCC96E7"><span
+style='mso-bookmark:_Ref7DCC96E7'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref7DCC96E7'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>旋转曲面、母线、轴</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref857AC1A4"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0038_b974f218976dcfb5b2143386d32aece" o:spid="_x0000_i1048" type="#_x0000_t75"
+ style='width:340.2pt;height:213pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image029.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=355
+src="第8章%20空间解析几何与向量代数——高数.files/image030.png" v:shapes="_x0038_b974f218976dcfb5b2143386d32aece"><![endif]></span></a><a
+href="marginnoteapp://note/6593FA99-A01E-4A1D-8D08-F235857AC1A4"><span
+style='mso-bookmark:_Ref857AC1A4'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref857AC1A4'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>圆锥面</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefDC8F799D"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0038_c976965ce36cb9bc3c9aa0f3e20cd7b" o:spid="_x0000_i1047" type="#_x0000_t75"
+ style='width:340.2pt;height:255pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image031.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=425
+src="第8章%20空间解析几何与向量代数——高数.files/image032.png" v:shapes="_x0038_c976965ce36cb9bc3c9aa0f3e20cd7b"><![endif]></span></a><a
+href="marginnoteapp://note/19CE6108-9DE5-4B4B-AAD0-F4E6DC8F799D"><span
+style='mso-bookmark:_RefDC8F799D'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefDC8F799D'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>双曲面</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref8C683839"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0035_b7f5cb57aa87d211072ca7dac6f52e0" o:spid="_x0000_i1046" type="#_x0000_t75"
+ style='width:327.6pt;height:171.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image033.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=286
+src="第8章%20空间解析几何与向量代数——高数.files/image034.png" v:shapes="_x0035_b7f5cb57aa87d211072ca7dac6f52e0"><![endif]></span></a><a
+href="marginnoteapp://note/9C437830-A82B-4D9F-B0B4-A0E78C683839"><span
+style='mso-bookmark:_Ref8C683839'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref8C683839'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>旋转单叶双曲面</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref21B899FA"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="ddd47f18c36dde5ac61fc031468e8786" o:spid="_x0000_i1045" type="#_x0000_t75"
+ style='width:328.2pt;height:194.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image035.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=547 height=324
+src="第8章%20空间解析几何与向量代数——高数.files/image036.png" v:shapes="ddd47f18c36dde5ac61fc031468e8786"><![endif]></span></a><a
+href="marginnoteapp://note/9D57ABBB-D7A9-4030-9615-2DA521B899FA"><span
+style='mso-bookmark:_Ref21B899FA'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref21B899FA'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>旋转双叶双曲面</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref1F50E274"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0035_9df4a2d1044b5a526322558be746401" o:spid="_x0000_i1044" type="#_x0000_t75"
+ style='width:352.2pt;height:242.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image037.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=404
+src="第8章%20空间解析几何与向量代数——高数.files/image038.png" v:shapes="_x0035_9df4a2d1044b5a526322558be746401"><![endif]></span></a><a
+href="marginnoteapp://note/883344E5-8CD3-451A-A0CF-05B21F50E274"><span
+style='mso-bookmark:_Ref1F50E274'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref1F50E274'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>柱面</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref1CC5EDE8"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="c9253affc03da28564bf3cb69c6052c7" o:spid="_x0000_i1043" type="#_x0000_t75"
+ style='width:340.2pt;height:232.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image039.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=387
+src="第8章%20空间解析几何与向量代数——高数.files/image040.png" v:shapes="c9253affc03da28564bf3cb69c6052c7"><![endif]></span></a><a
+href="marginnoteapp://note/74E074BA-0AB1-4A9D-ACB9-9EE71CC5EDE8"><span
+style='mso-bookmark:_Ref1CC5EDE8'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref1CC5EDE8'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>圆柱面</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefB037225C"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="f69197f4359ff52bf7370191e0479d28" o:spid="_x0000_i1042" type="#_x0000_t75"
+ style='width:340.2pt;height:136.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image041.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=227
+src="第8章%20空间解析几何与向量代数——高数.files/image042.png" v:shapes="f69197f4359ff52bf7370191e0479d28"><![endif]></span></a><a
+href="marginnoteapp://note/61DF5227-6130-49F1-BEEE-97D7B037225C"><span
+style='mso-bookmark:_RefB037225C'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefB037225C'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>抛物柱面</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref6CA49695"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0039_b5a6b654727453151595d60adfc20c2" o:spid="_x0000_i1041" type="#_x0000_t75"
+ style='width:352.2pt;height:136.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image043.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=228
+src="第8章%20空间解析几何与向量代数——高数.files/image044.png" v:shapes="_x0039_b5a6b654727453151595d60adfc20c2"><![endif]></span></a><a
+href="marginnoteapp://note/82509565-E369-40AF-9292-804D6CA49695"><span
+style='mso-bookmark:_Ref6CA49695'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref6CA49695'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>二次曲面</span><span
+style='background:#FFEEBF'> </span><span lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>椭圆形锥面</span><span
+lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>椭球面</span><span
+lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>单叶双曲面</span><span
+lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>双叶双曲面</span><span
+lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>椭圆抛物面</span><span
+style='background:#FFEEBF'> </span><span style='font-family:宋体;mso-bidi-font-family:
+宋体;background:#FFEEBF'>双曲抛物面</span><span lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>椭圆柱面，双曲柱面，抛物柱面。</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref24F5DC30"></a><a
+href="marginnoteapp://note/7E99DB94-280B-4CAB-8C2A-626C24F5DC30"><span
+style='mso-bookmark:_Ref24F5DC30'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref24F5DC30'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.4<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>空间曲线及其方程</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefB366CC23"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="f6f91e2330ba48c6969186b0a916e5a2" o:spid="_x0000_i1040" type="#_x0000_t75"
+ style='width:352.2pt;height:238.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image045.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=397
+src="第8章%20空间解析几何与向量代数——高数.files/image046.png" v:shapes="f6f91e2330ba48c6969186b0a916e5a2"><![endif]></span></a><a
+href="marginnoteapp://note/92190610-1CCF-4D8D-984C-CE56B366CC23"><span
+style='mso-bookmark:_RefB366CC23'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefB366CC23'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.4.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>空间曲线定义为曲面的交线</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref35AA867A"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0037_a19954181d0da7dc844b70ebf39e6c5" o:spid="_x0000_i1039" type="#_x0000_t75"
+ style='width:352.2pt;height:257.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image047.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=429
+src="第8章%20空间解析几何与向量代数——高数.files/image048.png" v:shapes="_x0037_a19954181d0da7dc844b70ebf39e6c5"><![endif]></span></a><a
+href="marginnoteapp://note/0E7E3F01-51A2-49A1-8289-A5AF35AA867A"><span
+style='mso-bookmark:_Ref35AA867A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref35AA867A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h4><span style='background:#FFEEBF'>参数方程。</span><span lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref6A91654A"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="c1f712cc49f032af2a8c831262039ef2" o:spid="_x0000_i1038" type="#_x0000_t75"
+ style='width:352.2pt;height:258pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image049.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=430
+src="第8章%20空间解析几何与向量代数——高数.files/image050.png" v:shapes="c1f712cc49f032af2a8c831262039ef2"><![endif]></span></a><a
+href="marginnoteapp://note/AD6BB3E2-A715-43AD-829D-12EB6A91654A"><span
+style='mso-bookmark:_Ref6A91654A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref6A91654A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h4><span style='background:#FFEEBF'>投影</span><span lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref7B1F2F03"></a><a
+href="marginnoteapp://note/C92A59B5-33DF-4AB7-BB0E-C2167B1F2F03"><span
+style='mso-bookmark:_Ref7B1F2F03'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref7B1F2F03'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.5<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>平面及其方程。</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefBBFE99FA"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0034_e70ac58ee60cf2e3341b40e37a0b6bf" o:spid="_x0000_i1037" type="#_x0000_t75"
+ style='width:352.2pt;height:436.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image051.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=727
+src="第8章%20空间解析几何与向量代数——高数.files/image052.png" v:shapes="_x0034_e70ac58ee60cf2e3341b40e37a0b6bf"><![endif]></span></a><a
+href="marginnoteapp://note/811E9184-EA8B-44CB-912B-514EBBFE99FA"><span
+style='mso-bookmark:_RefBBFE99FA'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefBBFE99FA'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.5.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>平面的点法式方程</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefF76FD8FB"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0030_ef9aab8ae7da1f8003f72122bc780ea" o:spid="_x0000_i1036" type="#_x0000_t75"
+ style='width:352.2pt;height:214.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image053.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=357
+src="第8章%20空间解析几何与向量代数——高数.files/image054.png" v:shapes="_x0030_ef9aab8ae7da1f8003f72122bc780ea"><![endif]></span></a><a
+href="marginnoteapp://note/FAB5115E-B810-47A3-9C11-2BAFF76FD8FB"><span
+style='mso-bookmark:_RefF76FD8FB'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefF76FD8FB'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.5.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>平面的一般方程</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefAC9C8FDD"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_ef71f9da652ae4510367cf151fa20c0" o:spid="_x0000_i1035" type="#_x0000_t75"
+ style='width:352.2pt;height:396.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image055.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=661
+src="第8章%20空间解析几何与向量代数——高数.files/image056.png" v:shapes="_x0036_ef71f9da652ae4510367cf151fa20c0"><![endif]></span></a><a
+href="marginnoteapp://note/40D3AA17-BBE5-4832-AA0F-B906AC9C8FDD"><span
+style='mso-bookmark:_RefAC9C8FDD'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefAC9C8FDD'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.5.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>两平面夹角、垂直及平行</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref56404769"></a><a
+href="marginnoteapp://note/D17EF815-351E-47E5-81C9-C72E56404769"><span
+style='mso-bookmark:_Ref56404769'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref56404769'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.6<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>空间直线及其方程</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref8A494805"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="c0d71486bac7e008f2a708133dc4206c" o:spid="_x0000_i1034" type="#_x0000_t75"
+ style='width:352.2pt;height:349.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image057.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=582
+src="第8章%20空间解析几何与向量代数——高数.files/image058.png" v:shapes="c0d71486bac7e008f2a708133dc4206c"><![endif]></span></a><a
+href="marginnoteapp://note/EC02898E-86A0-49B7-963B-B8818A494805"><span
+style='mso-bookmark:_Ref8A494805'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref8A494805'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.6.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>空间直线的一般方程：空间平面的交线</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref6F04F26F"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0038_18b3dfbc9ec91fd56300823776fa041" o:spid="_x0000_i1033" type="#_x0000_t75"
+ style='width:352.2pt;height:81pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image059.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=135
+src="第8章%20空间解析几何与向量代数——高数.files/image060.png" v:shapes="_x0038_18b3dfbc9ec91fd56300823776fa041"><![endif]></span></a><a
+href="marginnoteapp://note/AE5873AD-2FA0-4CB8-9C5B-9CE26F04F26F"><span
+style='mso-bookmark:_Ref6F04F26F'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref6F04F26F'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.6.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>空间直线的对称式方程与参数方程</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefD2F6C61A"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0037_16b3c5b4e73d716136ed4dbf8023001" o:spid="_x0000_i1032" type="#_x0000_t75"
+ style='width:340.2pt;height:198pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image061.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=330
+src="第8章%20空间解析几何与向量代数——高数.files/image062.png" v:shapes="_x0037_16b3c5b4e73d716136ed4dbf8023001"><![endif]></span></a><a
+href="marginnoteapp://note/1D52FA2C-8424-4007-AC59-51ECD2F6C61A"><span
+style='mso-bookmark:_RefD2F6C61A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefD2F6C61A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.6.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>直线的对称式方程、点向式方程</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefA83FD888"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0034_d8f6b4ad07c1cb183f84e9f63e1395a" o:spid="_x0000_i1031" type="#_x0000_t75"
+ style='width:340.2pt;height:225pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image063.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=375
+src="第8章%20空间解析几何与向量代数——高数.files/image064.png" v:shapes="_x0034_d8f6b4ad07c1cb183f84e9f63e1395a"><![endif]></span></a><a
+href="marginnoteapp://note/C70DA344-AEA9-475C-9F80-0929A83FD888"><span
+style='mso-bookmark:_RefA83FD888'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefA83FD888'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.6.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>直线的参数方程</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefDD928892"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="c9f258a742ea4a4e6f767406deaf958e" o:spid="_x0000_i1030" type="#_x0000_t75"
+ style='width:352.2pt;height:226.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image065.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=378
+src="第8章%20空间解析几何与向量代数——高数.files/image066.png" v:shapes="c9f258a742ea4a4e6f767406deaf958e"><![endif]></span></a><a
+href="marginnoteapp://note/84A355A2-95D8-49CF-9706-9FD0DD928892"><span
+style='mso-bookmark:_RefDD928892'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefDD928892'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>两直线的夹角、方向向量的夹角</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefFD7ECD22"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0038_54f8336867101ba80f1e233b9d4e5cd" o:spid="_x0000_i1029" type="#_x0000_t75"
+ style='width:352.2pt;height:383.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image067.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=639
+src="第8章%20空间解析几何与向量代数——高数.files/image068.png" v:shapes="_x0038_54f8336867101ba80f1e233b9d4e5cd"><![endif]></span></a><a
+href="marginnoteapp://note/E10C99E6-8B4A-453E-BBB3-449BFD7ECD22"><span
+style='mso-bookmark:_RefFD7ECD22'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefFD7ECD22'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h4><span style='background:#FFEEBF'>方向向量与法向向量夹角的补角</span><span lang=EN-US><o:p></o:p></span></h4>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref19C6AD92"></a><a
+href="marginnoteapp://note/E8DF2C62-99B4-40EC-9FDA-DF0719C6AD92"><span
+style='mso-bookmark:_Ref19C6AD92'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref19C6AD92'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>8.7<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>向量函数的微分（北航</span><span
+style='background:#FFEEBF'> </span><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>工科数学分析</span><span
+style='background:#FFEEBF'> </span><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>杨小远）</span><span
+lang=EN-US style='background:#FFEEBF'><o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="ccc498265fad477baf9d0a4f6ab605c3" o:spid="_x0000_i1028" type="#_x0000_t75"
+ style='width:363.6pt;height:217.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image069.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=606 height=363
+src="第8章%20空间解析几何与向量代数——高数.files/image070.png" v:shapes="ccc498265fad477baf9d0a4f6ab605c3"><![endif]></span><span
+lang=EN-US style='mso-fareast-font-family:等线;mso-fareast-theme-font:minor-fareast'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref6DA2D131"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0035_f595d133374213868378c2cbd78aa47" o:spid="_x0000_i1027" type="#_x0000_t75"
+ style='width:352.2pt;height:169.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image071.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=283
+src="第8章%20空间解析几何与向量代数——高数.files/image072.png" v:shapes="_x0035_f595d133374213868378c2cbd78aa47"><![endif]></span></a><a
+href="marginnoteapp://note/E3BBE5CD-1F52-4529-8CC7-ADEF6DA2D131"><span
+style='mso-bookmark:_Ref6DA2D131'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref6DA2D131'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>向量函数范数</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref91EDB5B3"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0030_e32c008b4c294a590577108fba097c6" o:spid="_x0000_i1026" type="#_x0000_t75"
+ style='width:340.2pt;height:55.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image073.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=93
+src="第8章%20空间解析几何与向量代数——高数.files/image074.png" v:shapes="_x0030_e32c008b4c294a590577108fba097c6"><![endif]></span></a><a
+href="marginnoteapp://note/02F93B9C-AA20-41BC-971C-7C8B91EDB5B3"><span
+style='mso-bookmark:_Ref91EDB5B3'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref91EDB5B3'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>向量函数复合</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref5F33E99F"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_bc20971cf21a00f66c232c5de43e1c1" o:spid="_x0000_i1025" type="#_x0000_t75"
+ style='width:352.2pt;height:115.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第8章%20空间解析几何与向量代数——高数.files/image075.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=192
+src="第8章%20空间解析几何与向量代数——高数.files/image076.png" v:shapes="_x0036_bc20971cf21a00f66c232c5de43e1c1"><![endif]></span></a><a
+href="marginnoteapp://note/310D40FE-08EE-46C0-AFB0-D1AF5F33E99F"><span
+style='mso-bookmark:_Ref5F33E99F'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref5F33E99F'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>向量函数极限</span><span
+style='background:#FFEEBF'> </span><span style='font-family:宋体;mso-bidi-font-family:
+宋体;background:#FFEEBF'>逼近值由绝对值变为范数</span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

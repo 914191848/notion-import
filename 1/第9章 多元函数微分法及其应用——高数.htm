@@ -1,0 +1,2756 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="第9章%20多元函数微分法及其应用——高数.files/filelist.xml">
+<link rel=Edit-Time-Data href="第9章%20多元函数微分法及其应用——高数.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>kl</o:Author>
+  <o:LastAuthor>kl</o:LastAuthor>
+  <o:Revision>1</o:Revision>
+  <o:TotalTime>11</o:TotalTime>
+  <o:Created>2021-06-13T12:49:00Z</o:Created>
+  <o:LastSaved>2021-06-13T13:01:00Z</o:LastSaved>
+  <o:Pages>24</o:Pages>
+  <o:Words>839</o:Words>
+  <o:Characters>4788</o:Characters>
+  <o:Lines>39</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>5616</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="第9章%20多元函数微分法及其应用——高数.files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="第9章%20多元函数微分法及其应用——高数.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="0" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="0" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-alt:SimHei;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:等线;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:DengXian;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073741899 0 0 159 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-.55pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+h1
+	{mso-style-update:auto;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 1 字符";
+	mso-style-next:正文;
+	margin-top:5.0pt;
+	margin-right:1.4pt;
+	margin-bottom:5.0pt;
+	margin-left:15.0pt;
+	mso-para-margin-top:1.0gd;
+	mso-para-margin-right:1.4pt;
+	mso-para-margin-bottom:1.0gd;
+	mso-para-margin-left:15.0pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-15.0pt;
+	mso-char-indent-count:-3.0;
+	line-height:150%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l3 level1 lfo13;
+	font-size:16.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:黑体;
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:22.0pt;}
+h2
+	{mso-style-update:auto;
+	mso-style-qformat:yes;
+	mso-style-parent:"标题 1";
+	mso-style-link:"标题 2 字符";
+	mso-style-next:正文;
+	margin-top:5.0pt;
+	margin-right:1.4pt;
+	margin-bottom:2.5pt;
+	margin-left:7.5pt;
+	mso-para-margin-top:1.0gd;
+	mso-para-margin-right:1.4pt;
+	mso-para-margin-bottom:.5gd;
+	mso-para-margin-left:7.5pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-7.5pt;
+	mso-char-indent-count:-1.5;
+	line-height:150%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l3 level2 lfo6;
+	font-size:14.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:22.0pt;}
+h3
+	{mso-style-update:auto;
+	mso-style-qformat:yes;
+	mso-style-parent:"标题 2";
+	mso-style-link:"标题 3 字符";
+	mso-style-next:正文;
+	margin-top:5.0pt;
+	margin-right:1.4pt;
+	margin-bottom:2.5pt;
+	margin-left:12.5pt;
+	mso-para-margin-top:1.0gd;
+	mso-para-margin-right:1.4pt;
+	mso-para-margin-bottom:.5gd;
+	mso-para-margin-left:12.5pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:-12.5pt;
+	mso-char-indent-count:-2.5;
+	line-height:150%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-list:l3 level3 lfo13;
+	font-size:12.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:22.0pt;
+	mso-bidi-font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 字符";
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-.55pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 字符";
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-indent:-.55pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:2.5pt;
+	margin-right:0cm;
+	margin-bottom:2.5pt;
+	margin-left:0cm;
+	mso-para-margin-top:.5gd;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:.5gd;
+	mso-para-margin-left:0cm;
+	text-align:center;
+	mso-pagination:none;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+span.a
+	{mso-style-name:"页眉 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.a0
+	{mso-style-name:"页脚 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.1
+	{mso-style-name:"标题 1 字符";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 1";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:黑体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2
+	{mso-style-name:"标题 2 字符";
+	mso-style-priority:2;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 2";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.3
+	{mso-style-name:"标题 3 字符";
+	mso-style-priority:3;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:22.0pt;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.a1, li.a1, div.a1
+	{mso-style-name:图表标题;
+	mso-style-update:auto;
+	mso-style-priority:4;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"图表标题 字符";
+	mso-style-next:正文;
+	margin-top:0cm;
+	margin-right:1.4pt;
+	margin-bottom:0cm;
+	margin-left:.55pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:150%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:Cambria;
+	color:black;
+	mso-font-kerning:1.0pt;}
+span.a2
+	{mso-style-name:"图表标题 字符";
+	mso-style-priority:4;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:图表标题;
+	font-family:宋体;
+	mso-fareast-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-bidi-font-size:10.5pt;
+	font-family:等线;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("第9章%20多元函数微分法及其应用——高数.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("第9章%20多元函数微分法及其应用——高数.files/header.htm") fcs;
+	mso-endnote-separator:url("第9章%20多元函数微分法及其应用——高数.files/header.htm") es;
+	mso-endnote-continuation-separator:url("第9章%20多元函数微分法及其应用——高数.files/header.htm") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:59523345;
+	mso-list-template-ids:1767654512;}
+@list l0:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l0:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l0:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:42.55pt;}
+@list l0:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l0:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l0:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l0:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l0:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l0:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l1
+	{mso-list-id:584412840;
+	mso-list-template-ids:1767654512;}
+@list l1:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l1:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l1:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:42.55pt;}
+@list l1:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l1:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l1:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l1:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l1:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l1:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l2
+	{mso-list-id:819426123;
+	mso-list-template-ids:1377453608;}
+@list l2:level1
+	{mso-level-style-link:"标题 1";
+	mso-level-text:第%1章;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l2:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l2:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:42.55pt;}
+@list l2:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l2:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l2:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l2:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l2:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l2:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l3
+	{mso-list-id:1011877100;
+	mso-list-template-ids:-100788382;}
+@list l3:level1
+	{mso-level-style-link:"标题 1";
+	mso-level-text:第%1章;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l3:level2
+	{mso-level-style-link:"标题 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l3:level3
+	{mso-level-style-link:"标题 3";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:42.55pt;}
+@list l3:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l3:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l3:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l3:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l3:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l3:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l4
+	{mso-list-id:1420907107;
+	mso-list-template-ids:67698717;}
+@list l4:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l4:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l4:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-1.0cm;}
+@list l4:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l4:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l4:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l4:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l4:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l4:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l5
+	{mso-list-id:1937976240;
+	mso-list-template-ids:-210710816;}
+@list l5:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l5:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l5:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l5:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l5:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l5:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l5:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l5:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l5:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第1章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><span lang=EN-US
+style='background:#FFEEBF'><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第2章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第3章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第4章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第5章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第6章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第7章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第8章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h1 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:15.6pt;
+margin-left:48.2pt;text-indent:-48.2pt;mso-list:l3 level1 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>第9章<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:黑体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>多元函数微分法及其应用</span><a name="_Ref7D97E674"></a><a
+href="marginnoteapp://note/1C2DDC5F-578D-4F58-8EEE-5FDE7D97E674"><span
+style='mso-bookmark:_Ref7D97E674'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'> </span></span></a><span
+style='mso-bookmark:_Ref7D97E674'></span><span lang=EN-US><o:p></o:p></span></h1>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.1<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>多元函数的基本概念</span><a
+name="_Ref067C1BF4"></a><a
+href="marginnoteapp://note/A0EA6498-D25D-4719-B536-2A53067C1BF4"><span
+style='mso-bookmark:_Ref067C1BF4'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'> </span></span></a><span
+style='mso-bookmark:_Ref067C1BF4'></span><span lang=EN-US><o:p></o:p></span></h2>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.1.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>平面点积、</span><span
+lang=EN-US style='background:#FFEEBF'>n</span><span style='font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+background:#FFEEBF'>维空间</span><span lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref3C2E6D1C"></a><a
+href="marginnoteapp://note/E676F365-C783-434B-BFC1-21103C2E6D1C"><span
+style='mso-bookmark:_Ref3C2E6D1C'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref3C2E6D1C'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.1.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>多元函数</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref4793018D"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0032_fd146fdab4022a1b25c542e85bf331b" o:spid="_x0000_i1065"
+ type="#_x0000_t75" style='width:340.2pt;height:167.4pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=279
+src="第9章%20多元函数微分法及其应用——高数.files/image002.png" v:shapes="_x0032_fd146fdab4022a1b25c542e85bf331b"><![endif]></span></a><a
+href="marginnoteapp://note/529D77A5-5B80-4D9C-BA62-807D4793018D"><span
+style='mso-bookmark:_Ref4793018D'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref4793018D'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>多个自变量</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefEC75A733"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_63dbc4d8984b2ad9c420291789981c6" o:spid="_x0000_i1064" type="#_x0000_t75"
+ style='width:352.2pt;height:409.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=683
+src="第9章%20多元函数微分法及其应用——高数.files/image004.png" v:shapes="_x0036_63dbc4d8984b2ad9c420291789981c6"><![endif]></span></a><a
+href="marginnoteapp://note/D983232F-4981-42CD-BDB9-16B8EC75A733"><span
+style='mso-bookmark:_RefEC75A733'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefEC75A733'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.1.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>多元函数极限：二重极限</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref3EFD5823"></a><a
+href="marginnoteapp://note/E67D0CBF-54A2-488A-B52B-A96F3EFD5823"><span
+style='mso-bookmark:_Ref3EFD5823'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref3EFD5823'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.1.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>多元函数的连续性</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref1F0985D1"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="f64e44b2cf124f3197a94fcf97998526" o:spid="_x0000_i1063" type="#_x0000_t75"
+ style='width:340.2pt;height:171pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=285
+src="第9章%20多元函数微分法及其应用——高数.files/image006.png" v:shapes="f64e44b2cf124f3197a94fcf97998526"><![endif]></span></a><a
+href="marginnoteapp://note/AE7DF183-8C9F-4090-9B62-94601F0985D1"><span
+style='mso-bookmark:_Ref1F0985D1'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref1F0985D1'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>连续</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref1ACAA954"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0032_19cafd16c2358e78a74212ec52c2320" o:spid="_x0000_i1062" type="#_x0000_t75"
+ style='width:340.2pt;height:99.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image007.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=166
+src="第9章%20多元函数微分法及其应用——高数.files/image008.png" v:shapes="_x0032_19cafd16c2358e78a74212ec52c2320"><![endif]></span></a><a
+href="marginnoteapp://note/AC91451B-4E8B-4966-B7C2-6FF61ACAA954"><span
+style='mso-bookmark:_Ref1ACAA954'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref1ACAA954'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>间断点</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref8BD06641"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0034_e40ecf4267163034b5eed1fadf6dd93" o:spid="_x0000_i1061" type="#_x0000_t75"
+ style='width:340.2pt;height:207pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=345
+src="第9章%20多元函数微分法及其应用——高数.files/image010.png" v:shapes="_x0034_e40ecf4267163034b5eed1fadf6dd93"><![endif]></span></a><a
+href="marginnoteapp://note/11AD1E8F-2244-44CC-8617-38DC8BD06641"><span
+style='mso-bookmark:_Ref8BD06641'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref8BD06641'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.1.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>有界性与最值定理</span><span
+lang=EN-US style='background:#FFEEBF'><span style='mso-spacerun:yes'>&nbsp;
+</span></span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>介值定理</span><span
+lang=EN-US style='background:#FFEEBF'><span style='mso-spacerun:yes'>&nbsp;
+</span></span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>一致连续性</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref501B49B7"></a><a
+href="marginnoteapp://note/384C5185-6F93-43E7-9CEB-B419501B49B7"><span
+style='mso-bookmark:_Ref501B49B7'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref501B49B7'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.2<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>偏导数</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref9EB5798A"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0039_c7bdf383f1c02bffcec84c49112fd7d" o:spid="_x0000_i1060" type="#_x0000_t75"
+ style='width:352.2pt;height:214.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image011.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=357
+src="第9章%20多元函数微分法及其应用——高数.files/image012.png" v:shapes="_x0039_c7bdf383f1c02bffcec84c49112fd7d"><![endif]></span></a><a
+href="marginnoteapp://note/933C66E9-B45C-4F51-9719-86639EB5798A"><span
+style='mso-bookmark:_Ref9EB5798A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref9EB5798A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>偏导数</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref118B4703"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="fcc798b432c38956dc7b534143cb7dcf" o:spid="_x0000_i1059" type="#_x0000_t75"
+ style='width:352.2pt;height:277.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image013.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=462
+src="第9章%20多元函数微分法及其应用——高数.files/image014.png" v:shapes="fcc798b432c38956dc7b534143cb7dcf"><![endif]></span></a><a
+href="marginnoteapp://note/69C9641A-6721-45BB-9027-89DE118B4703"><span
+style='mso-bookmark:_Ref118B4703'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref118B4703'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>高阶偏导数</span><span
+lang=EN-US style='background:#FFEEBF'><span style='mso-spacerun:yes'>&nbsp;
+</span></span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:
+#FFEEBF'>混合偏导数</span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefCC8AEA0B"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0032_5991b26bd05c29b440ef1ccb2533709" o:spid="_x0000_i1058" type="#_x0000_t75"
+ style='width:340.2pt;height:94.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=157
+src="第9章%20多元函数微分法及其应用——高数.files/image016.png" v:shapes="_x0032_5991b26bd05c29b440ef1ccb2533709"><![endif]></span></a><a
+href="marginnoteapp://note/BFE5D3FC-FE71-44D7-8CBD-3A83CC8AEA0B"><span
+style='mso-bookmark:_RefCC8AEA0B'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefCC8AEA0B'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.2.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>二阶混合偏导数据连续必相等</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref6D82201A"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="fc5e890aac38353291b8dfd6af1fc92f" o:spid="_x0000_i1057" type="#_x0000_t75"
+ style='width:328.2pt;height:805.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=547 height=1343
+src="第9章%20多元函数微分法及其应用——高数.files/image018.png" v:shapes="fc5e890aac38353291b8dfd6af1fc92f"><![endif]></span></a><a
+href="marginnoteapp://note/377CC5D4-A5EC-41F4-8E20-F4016D82201A"><span
+style='mso-bookmark:_Ref6D82201A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref6D82201A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>拉普拉斯方程</span><span
+style='font-family:等线;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast'>：</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>二阶导数和为</span><span lang=EN-US
+style='background:#FFEEBF'>0</span><span lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref68D8CF44"></a><a
+href="marginnoteapp://note/DE2A8095-6C8F-423A-9B5D-432968D8CF44"><span
+style='mso-bookmark:_Ref68D8CF44'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref68D8CF44'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.3<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>全微分</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefF51AD38B"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0037_08e4c4ecaf9a5aedcfd98db6bb87f37" o:spid="_x0000_i1056" type="#_x0000_t75"
+ style='width:352.2pt;height:180.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=301
+src="第9章%20多元函数微分法及其应用——高数.files/image020.png" v:shapes="_x0037_08e4c4ecaf9a5aedcfd98db6bb87f37"><![endif]></span></a><a
+href="marginnoteapp://note/0AD74D2B-433F-431E-A239-A1B5F51AD38B"><span
+style='mso-bookmark:_RefF51AD38B'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefF51AD38B'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.3.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>全微分</span><span
+style='font-family:等线;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast'>：</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>任意路径趋近，而偏导数路径为</span><span lang=EN-US
+style='background:#FFEEBF'>x</span><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>轴或</span><span
+lang=EN-US style='background:#FFEEBF'>y</span><span style='font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+background:#FFEEBF'>轴有本质区别</span><span lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefB4FE21F3"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0038_39cc56755e44cd6ba326e82650f6680" o:spid="_x0000_i1055" type="#_x0000_t75"
+ style='width:340.2pt;height:114.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image021.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=191
+src="第9章%20多元函数微分法及其应用——高数.files/image022.png" v:shapes="_x0038_39cc56755e44cd6ba326e82650f6680"><![endif]></span></a><a
+href="marginnoteapp://note/361907B2-2D26-4760-B361-BBC7B4FE21F3"><span
+style='mso-bookmark:_RefB4FE21F3'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefB4FE21F3'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.3.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>可微则偏导必定存</span></h3>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.3.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>可微偏导不一定连续</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefB9D1CE87"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="b64104da9b9e0b999ded5a31aed9fd73" o:spid="_x0000_i1054" type="#_x0000_t75"
+ style='width:327.6pt;height:139.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image023.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=233
+src="第9章%20多元函数微分法及其应用——高数.files/image024.png" v:shapes="b64104da9b9e0b999ded5a31aed9fd73"><![endif]></span></a><a
+href="marginnoteapp://note/D2D775C4-65DD-4391-87FB-6A66B9D1CE87"><span
+style='mso-bookmark:_RefB9D1CE87'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefB9D1CE87'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.3.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>二元函数的微分符合叠加原理</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref676DD728"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="f695df51cc4566b9b9db962353c41923" o:spid="_x0000_i1053" type="#_x0000_t75"
+ style='width:340.2pt;height:96.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image025.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=161
+src="第9章%20多元函数微分法及其应用——高数.files/image026.png" v:shapes="f695df51cc4566b9b9db962353c41923"><![endif]></span></a><a
+href="marginnoteapp://note/8FC47221-6AFA-404B-95E0-350A676DD728"><span
+style='mso-bookmark:_Ref676DD728'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref676DD728'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.3.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>偏导连续则可微</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref34D6A0E0"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0034_fc1fd98101f29b8d16682fe0e74d20d" o:spid="_x0000_i1052" type="#_x0000_t75"
+ style='width:327.6pt;height:117.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image027.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=196
+src="第9章%20多元函数微分法及其应用——高数.files/image028.png" v:shapes="_x0034_fc1fd98101f29b8d16682fe0e74d20d"><![endif]></span></a><a
+href="marginnoteapp://note/410C5D14-D6C2-4851-A2BC-A3AC34D6A0E0"><span
+style='mso-bookmark:_Ref34D6A0E0'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref34D6A0E0'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>全增量转换为两个偏增量之和</span><span
+lang=EN-US><br>
+</span><span style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>多元函数问题转换成一元函数问题，多元函数的主要研究方法</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref74EBF5A3"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0038_ec748fe3121ab30d22822a5d77c2935" o:spid="_x0000_i1051" type="#_x0000_t75"
+ style='width:327.6pt;height:111.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image029.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=186
+src="第9章%20多元函数微分法及其应用——高数.files/image030.png" v:shapes="_x0038_ec748fe3121ab30d22822a5d77c2935"><![endif]></span></a><a
+href="marginnoteapp://note/E86DF846-477C-4462-A7DB-893574EBF5A3"><span
+style='mso-bookmark:_Ref74EBF5A3'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref74EBF5A3'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>条件可弱化为一个偏导连续，另外一个偏导存在</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref513552BA"></a><a
+href="marginnoteapp://note/F1D7A3BC-F0E0-4CA4-946A-2B0D513552BA"><span
+style='mso-bookmark:_Ref513552BA'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref513552BA'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.4<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>多元复合函数的求导法则</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>：<span style='background:#FFEEBF'>一层层求导</span></span><span
+style='background:#FFEEBF'> </span><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>原函数可微条件不可少</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref6FEB8BF3"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0037_001543b235063c389dc30e86376556f" o:spid="_x0000_i1050" type="#_x0000_t75"
+ style='width:352.2pt;height:244.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image031.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=408
+src="第9章%20多元函数微分法及其应用——高数.files/image032.png" v:shapes="_x0037_001543b235063c389dc30e86376556f"><![endif]></span></a><a
+href="marginnoteapp://note/D2D3C849-AA6A-4144-B185-41E96FEB8BF3"><span
+style='mso-bookmark:_Ref6FEB8BF3'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref6FEB8BF3'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefBF120C84"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0038_4ed9598fdaf1ea0804ae83956ac98ba" o:spid="_x0000_i1049" type="#_x0000_t75"
+ style='width:352.2pt;height:358.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image033.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=597
+src="第9章%20多元函数微分法及其应用——高数.files/image034.png" v:shapes="_x0038_4ed9598fdaf1ea0804ae83956ac98ba"><![endif]></span></a><a
+href="marginnoteapp://note/FE86D4C8-F44D-479B-A456-7F87BF120C84"><span
+style='mso-bookmark:_RefBF120C84'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefBF120C84'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.4.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>链式求导法则</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref12BAB6BA"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_fdc57ed5e1287c2128f7e60b973eae0" o:spid="_x0000_i1048" type="#_x0000_t75"
+ style='width:340.2pt;height:124.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image035.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=208
+src="第9章%20多元函数微分法及其应用——高数.files/image036.png" v:shapes="_x0036_fdc57ed5e1287c2128f7e60b973eae0"><![endif]></span></a><a
+href="marginnoteapp://note/5630159F-4B30-4822-BF72-0BD212BAB6BA"><span
+style='mso-bookmark:_Ref12BAB6BA'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref12BAB6BA'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref4CBA990C"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0037_17ec980a4492af7ab5471e9d00177cd" o:spid="_x0000_i1047" type="#_x0000_t75"
+ style='width:352.2pt;height:222pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image037.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=370
+src="第9章%20多元函数微分法及其应用——高数.files/image038.png" v:shapes="_x0037_17ec980a4492af7ab5471e9d00177cd"><![endif]></span></a><a
+href="marginnoteapp://note/295B6AA4-3882-40E0-9E6A-180C4CBA990C"><span
+style='mso-bookmark:_Ref4CBA990C'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref4CBA990C'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefEA3119D2"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0033_acb1dbbe3ce707cf2e0b3c8e490cede" o:spid="_x0000_i1046" type="#_x0000_t75"
+ style='width:352.2pt;height:168pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image039.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=280
+src="第9章%20多元函数微分法及其应用——高数.files/image040.png" v:shapes="_x0033_acb1dbbe3ce707cf2e0b3c8e490cede"><![endif]></span></a><a
+href="marginnoteapp://note/4B6329CE-93AC-4063-8C94-EC15EA3119D2"><span
+style='mso-bookmark:_RefEA3119D2'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefEA3119D2'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.4.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>全微分形式不变性</span><span
+style='background:#FFEEBF'> </span><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>不论全微分是对于自变量还是中间变量，其形式完全一样。</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref684DE404"></a><a
+href="marginnoteapp://note/F307193B-01F7-4125-A2D9-E17E684DE404"><span
+style='mso-bookmark:_Ref684DE404'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref684DE404'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.5<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>隐函数的求导法则</span><span
+lang=EN-US style='background:#FFEEBF'><o:p></o:p></span></h2>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.5.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>函数在邻域内具有连续偏导数，且函数值在该点为</span><span
+lang=EN-US style='background:#FFEEBF'>0</span><span style='font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+background:#FFEEBF'>，函数的因变量偏导数在该点不为</span><span lang=EN-US style='background:
+#FFEEBF'>0</span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>，则存在具有连续导数的函数。隐函数的偏导数为隐函数求偏导，然后进行移项获得</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref5A864120"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0031_e981944e14e378a278b12a2d9798911" o:spid="_x0000_i1045" type="#_x0000_t75"
+ style='width:352.2pt;height:292.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image041.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=487
+src="第9章%20多元函数微分法及其应用——高数.files/image042.png" v:shapes="_x0031_e981944e14e378a278b12a2d9798911"><![endif]></span></a><a
+href="marginnoteapp://note/4BE8BA85-6480-4535-83B5-9BF15A864120"><span
+style='mso-bookmark:_Ref5A864120'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref5A864120'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>一元方程</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefC555DD3B"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0032_66393beccf6545ab5d1b9c620e001f7" o:spid="_x0000_i1044" type="#_x0000_t75"
+ style='width:352.2pt;height:184.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image043.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=308
+src="第9章%20多元函数微分法及其应用——高数.files/image044.png" v:shapes="_x0032_66393beccf6545ab5d1b9c620e001f7"><![endif]></span></a><a
+href="marginnoteapp://note/E3AD7D64-5A59-4E36-8A06-54D4C555DD3B"><span
+style='mso-bookmark:_RefC555DD3B'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefC555DD3B'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>二元方程</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefD71EFAC1"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="fd96063546283c2598187c39737fcdb6" o:spid="_x0000_i1043" type="#_x0000_t75"
+ style='width:352.2pt;height:322.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image045.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=537
+src="第9章%20多元函数微分法及其应用——高数.files/image046.png" v:shapes="fd96063546283c2598187c39737fcdb6"><![endif]></span></a><a
+href="marginnoteapp://note/58A78CE9-78FF-4094-9699-F82ED71EFAC1"><span
+style='mso-bookmark:_RefD71EFAC1'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefD71EFAC1'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>方程组</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefA8857787"></a><a
+href="marginnoteapp://note/75D3DA5F-CBBA-41A7-815E-4882A8857787"><span
+style='mso-bookmark:_RefA8857787'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefA8857787'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>多元函数微分学的几何应用</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref333185A4"></a><a
+href="marginnoteapp://note/4EBC49BF-04A8-47CB-B809-4E0A333185A4"><span
+style='mso-bookmark:_Ref333185A4'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref333185A4'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>一元向量值函数及其导数</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref835E5B39"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_ed7d46b044a971bb2faf2a6a707b6c9" o:spid="_x0000_i1042" type="#_x0000_t75"
+ style='width:340.2pt;height:207pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image047.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=345
+src="第9章%20多元函数微分法及其应用——高数.files/image048.png" v:shapes="_x0036_ed7d46b044a971bb2faf2a6a707b6c9"><![endif]></span></a><a
+href="marginnoteapp://note/B1F71D28-CA21-4131-B2F8-01C9835E5B39"><span
+style='mso-bookmark:_Ref835E5B39'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref835E5B39'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>一元向量值函数：空间曲线表达为向量函数形式</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref56E50BE9"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="b080b5811d60c57b02c2b04338111263" o:spid="_x0000_i1041" type="#_x0000_t75"
+ style='width:327.6pt;height:147.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image049.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=246
+src="第9章%20多元函数微分法及其应用——高数.files/image050.png" v:shapes="b080b5811d60c57b02c2b04338111263"><![endif]></span></a><a
+href="marginnoteapp://note/341DCC44-04A0-40CE-B479-6C2D56E50BE9"><span
+style='mso-bookmark:_Ref56E50BE9'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref56E50BE9'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>向量值函数的极限</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref0DF30647"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="bde5a38441d9094a5e4b8da5481c10a9" o:spid="_x0000_i1040" type="#_x0000_t75"
+ style='width:327.6pt;height:105pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image051.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=175
+src="第9章%20多元函数微分法及其应用——高数.files/image052.png" v:shapes="bde5a38441d9094a5e4b8da5481c10a9"><![endif]></span></a><a
+href="marginnoteapp://note/7ED69F54-B20D-444C-877A-5B530DF30647"><span
+style='mso-bookmark:_Ref0DF30647'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref0DF30647'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>导向量：向量值函数的导数</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref864D5295"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0035_aecdfe19ce02b14082ce2d5b6fcdf4b" o:spid="_x0000_i1039" type="#_x0000_t75"
+ style='width:327.6pt;height:105pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image053.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=175
+src="第9章%20多元函数微分法及其应用——高数.files/image054.png" v:shapes="_x0035_aecdfe19ce02b14082ce2d5b6fcdf4b"><![endif]></span></a><a
+href="marginnoteapp://note/A3DECE28-C459-4853-B2AF-4632864D5295"><span
+style='mso-bookmark:_Ref864D5295'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref864D5295'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>向量值函数某点可导的充分必要条件是各分量函数在该点均可导</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref47165C8E"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="ba73c8f70724ecb060ad6d0ca76796fc" o:spid="_x0000_i1038" type="#_x0000_t75"
+ style='width:352.2pt;height:285.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image055.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=476
+src="第9章%20多元函数微分法及其应用——高数.files/image056.png" v:shapes="ba73c8f70724ecb060ad6d0ca76796fc"><![endif]></span></a><a
+href="marginnoteapp://note/CB1C59AE-2F74-45B6-B1BA-241647165C8E"><span
+style='mso-bookmark:_Ref47165C8E'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref47165C8E'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.6<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>空间曲线的切线与法平面</span><span
+lang=EN-US style='background:#FFEEBF'><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'><o:p>&nbsp;</o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.7<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>参数方程。</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref7BC34E14"></a><a
+href="marginnoteapp://note/48FDAC56-C9D3-4A29-AD2C-EA697BC34E14"><span
+style='mso-bookmark:_Ref7BC34E14'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref7BC34E14'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.8<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>曲面的切平面与法线</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref9E97DDB1"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0037_b6b5cd926b131f9d5479ec9fffb6a7b" o:spid="_x0000_i1037" type="#_x0000_t75"
+ style='width:340.2pt;height:287.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image057.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=479
+src="第9章%20多元函数微分法及其应用——高数.files/image058.png" v:shapes="_x0037_b6b5cd926b131f9d5479ec9fffb6a7b"><![endif]></span></a><a
+href="marginnoteapp://note/DDB5D179-9E1B-451C-B776-BD939E97DDB1"><span
+style='mso-bookmark:_Ref9E97DDB1'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref9E97DDB1'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.6.9<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>法向量为该点的各方向的偏微分</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref20F3A385"></a><a
+href="marginnoteapp://note/09B29FCB-D759-48CD-8253-D81F20F3A385"><span
+style='mso-bookmark:_Ref20F3A385'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref20F3A385'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.7<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>方向导数与梯度</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref3C80C41A"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_cede1305899b01c1ab17f8cd4208833" o:spid="_x0000_i1036" type="#_x0000_t75"
+ style='width:352.2pt;height:383.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image059.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=639
+src="第9章%20多元函数微分法及其应用——高数.files/image060.png" v:shapes="_x0036_cede1305899b01c1ab17f8cd4208833"><![endif]></span></a><a
+href="marginnoteapp://note/CC079708-637F-47FA-B494-1CAE3C80C41A"><span
+style='mso-bookmark:_Ref3C80C41A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref3C80C41A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.7.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>方向导数：沿某个方向求导</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefC9A54580"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0031_3d75b8462efaf08a7139df37c9c42ff" o:spid="_x0000_i1035" type="#_x0000_t75"
+ style='width:340.2pt;height:142.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image061.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=238
+src="第9章%20多元函数微分法及其应用——高数.files/image062.png" v:shapes="_x0031_3d75b8462efaf08a7139df37c9c42ff"><![endif]></span></a><a
+href="marginnoteapp://note/823D9944-D974-43AA-8550-F468C9A54580"><span
+style='mso-bookmark:_RefC9A54580'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefC9A54580'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>函数在某点可微则在该点的方向导数存在，其值为偏导数向量与方向向量的积。</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref300900D8"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="af17520f00c971ca18d3b15c38f043c4" o:spid="_x0000_i1034" type="#_x0000_t75"
+ style='width:352.2pt;height:346.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image063.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=577
+src="第9章%20多元函数微分法及其应用——高数.files/image064.png" v:shapes="af17520f00c971ca18d3b15c38f043c4"><![endif]></span></a><a
+href="marginnoteapp://note/3A212526-7E1A-476E-A153-2D34300900D8"><span
+style='mso-bookmark:_Ref300900D8'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref300900D8'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.7.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>梯度：偏微分向量</span><span
+lang=EN-US style='background:#FFEEBF'><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>向量微分算子、</span><span
+lang=EN-US style='background:#FFEEBF'>Nabla</span><span style='font-family:
+宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>算子：偏微分算子向量</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref8358272B"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_14ffb8ef31924415f3702f6eb98fe97" o:spid="_x0000_i1033" type="#_x0000_t75"
+ style='width:340.2pt;height:2in;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image065.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=240
+src="第9章%20多元函数微分法及其应用——高数.files/image066.png" v:shapes="_x0036_14ffb8ef31924415f3702f6eb98fe97"><![endif]></span></a><a
+href="marginnoteapp://note/F5C809BF-F36D-454E-A0FE-A0208358272B"><span
+style='mso-bookmark:_Ref8358272B'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref8358272B'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.7.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>方向导数是梯度与方向向量的积</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref52C04ADC"></a><a
+href="marginnoteapp://note/4541FE89-FC1E-4E20-9D8A-10FE52C04ADC"><span
+style='mso-bookmark:_Ref52C04ADC'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref52C04ADC'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.8<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>多元函数的极值及其求法</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref7E5F1D72"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0036_58da7a1b0bf2cfe1157163cf3d4f7e4" o:spid="_x0000_i1032" type="#_x0000_t75"
+ style='width:352.2pt;height:220.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image067.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=367
+src="第9章%20多元函数微分法及其应用——高数.files/image068.png" v:shapes="_x0036_58da7a1b0bf2cfe1157163cf3d4f7e4"><![endif]></span></a><a
+href="marginnoteapp://note/BAE2E526-95F7-4E4B-B0D9-EB7A7E5F1D72"><span
+style='mso-bookmark:_Ref7E5F1D72'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref7E5F1D72'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.8.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>多元函数的极值</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref8379BA83"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="b249eefa83ac03644804c1288146c9c1" o:spid="_x0000_i1031" type="#_x0000_t75"
+ style='width:340.2pt;height:102pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image069.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=170
+src="第9章%20多元函数微分法及其应用——高数.files/image070.png" v:shapes="b249eefa83ac03644804c1288146c9c1"><![endif]></span></a><a
+href="marginnoteapp://note/F5DF0F2D-16AE-4DAF-82DE-F4DA8379BA83"><span
+style='mso-bookmark:_Ref8379BA83'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref8379BA83'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.8.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>必要条件：多元函数在某点有偏导，且在该点有极值，则该点的偏导为</span><span
+lang=EN-US style='background:#FFEEBF'>0</span><span lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefA9530D48"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="f60f09ce2d1acfa803e77967f95191e8" o:spid="_x0000_i1030" type="#_x0000_t75"
+ style='width:340.2pt;height:256.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image071.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=427
+src="第9章%20多元函数微分法及其应用——高数.files/image072.png" v:shapes="f60f09ce2d1acfa803e77967f95191e8"><![endif]></span></a><a
+href="marginnoteapp://note/9B33FC9F-C6EF-4AFF-9486-1224A9530D48"><span
+style='mso-bookmark:_RefA9530D48'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefA9530D48'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.8.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>充分条件</span><span
+lang=EN-US style='background:#FFEEBF'><span style='mso-spacerun:yes'>&nbsp;
+</span></span><span style='font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>函数在某点邻域内，有连续的一阶二阶偏导且一阶偏导为</span><span
+lang=EN-US style='background:#FFEEBF'>0</span><span style='font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+background:#FFEEBF'>。是否有偏导与二阶偏导、混合偏导的值有关。</span><span lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefF15AD629"></a><a
+href="marginnoteapp://note/0C7C5CD4-F055-4317-A014-C282F15AD629"><span
+style='mso-bookmark:_RefF15AD629'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefF15AD629'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.8.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>条件极值</span><span
+style='background:#FFEEBF'> </span><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>拉格朗日乘法</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref60064045"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="bb68429386fe85c2b97b45650e4cc34e" o:spid="_x0000_i1029" type="#_x0000_t75"
+ style='width:327.6pt;height:291pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image073.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=546 height=485
+src="第9章%20多元函数微分法及其应用——高数.files/image074.png" v:shapes="bb68429386fe85c2b97b45650e4cc34e"><![endif]></span></a><a
+href="marginnoteapp://note/3AD7A5D1-B2BB-4A34-9E7A-3A5B60064045"><span
+style='mso-bookmark:_Ref60064045'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref60064045'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span
+style='font-family:宋体;mso-bidi-font-family:宋体;background:#FFEEBF'>条件极值：对自变量有限制条件时求极值</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefBBAF3ACA"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0030_209810e719358aca4e421b3521a8a06" o:spid="_x0000_i1028" type="#_x0000_t75"
+ style='width:315.6pt;height:163.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image075.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=526 height=273
+src="第9章%20多元函数微分法及其应用——高数.files/image076.png" v:shapes="_x0030_209810e719358aca4e421b3521a8a06"><![endif]></span></a><a
+href="marginnoteapp://note/5091D6AA-588D-4FE4-B1E5-4942BBAF3ACA"><span
+style='mso-bookmark:_RefBBAF3ACA'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_RefBBAF3ACA'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.8.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>方法一：将条件代入函数，转换为无条件极值</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref75FCD21D"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0033_efb3e6e538e1a6a896ff251432daa98" o:spid="_x0000_i1027" type="#_x0000_t75"
+ style='width:315.6pt;height:189.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image077.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=526 height=316
+src="第9章%20多元函数微分法及其应用——高数.files/image078.png" v:shapes="_x0033_efb3e6e538e1a6a896ff251432daa98"><![endif]></span></a><a
+href="marginnoteapp://note/2BFA2197-A802-44EE-8624-192675FCD21D"><span
+style='mso-bookmark:_Ref75FCD21D'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref75FCD21D'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.8.6<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>方法二：拉格朗日乘数法，将函数</span><span
+lang=EN-US style='background:#FFEEBF'>+</span><span style='font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+background:#FFEEBF'>参数</span><span lang=EN-US style='mso-bidi-font-family:"Times New Roman";
+background:#FFEEBF'>×</span><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>条件组合，求方程组一阶导数与条件为</span><span
+lang=EN-US style='background:#FFEEBF'>0</span><span style='font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+background:#FFEEBF'>的解自变量与参数</span><span lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref362AAF1F"></a><a
+href="marginnoteapp://note/AAEEF0ED-24C3-4386-9F1D-7743362AAF1F"><span
+style='mso-bookmark:_Ref362AAF1F'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref362AAF1F'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.9<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>二元函数的泰勒公式</span><span
+style='font-family:等线;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast'>：</span><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";background:#FFEEBF'>泰勒公式函数展开为级数加上高阶无穷小</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref85DAE97A"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0030_ecedfe845789ced6321d7ec2dc5e68b" o:spid="_x0000_i1026" type="#_x0000_t75"
+ style='width:352.2pt;height:388.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image079.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=587 height=648
+src="第9章%20多元函数微分法及其应用——高数.files/image080.png" v:shapes="_x0030_ecedfe845789ced6321d7ec2dc5e68b"><![endif]></span></a><a
+href="marginnoteapp://note/083E09A8-0BA9-4EED-8151-170C85DAE97A"><span
+style='mso-bookmark:_Ref85DAE97A'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref85DAE97A'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h3 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+30.1pt;text-indent:-30.1pt;mso-list:l3 level3 lfo13'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.9.1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>二元函数泰勒公式：将一元函数的各阶导数变为二元函数的各阶导数</span><span
+lang=EN-US><o:p></o:p></span></h3>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref9A5A254E"><span lang=EN-US style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="_x0032_8dd039d207a866b160616a9207d2a7f" o:spid="_x0000_i1025" type="#_x0000_t75"
+ style='width:340.2pt;height:112.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="第9章%20多元函数微分法及其应用——高数.files/image081.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=567 height=188
+src="第9章%20多元函数微分法及其应用——高数.files/image082.png" v:shapes="_x0032_8dd039d207a866b160616a9207d2a7f"><![endif]></span></a><a
+href="marginnoteapp://note/742BFF76-E0BE-413F-83FD-935C9A5A254E"><span
+style='mso-bookmark:_Ref9A5A254E'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref9A5A254E'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_Ref17CCAF50"></a><a
+href="marginnoteapp://note/115DF376-E182-4586-8E70-B30417CCAF50"><span
+style='mso-bookmark:_Ref17CCAF50'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></span></a><span style='mso-bookmark:
+_Ref17CCAF50'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<h2 style='margin-top:15.6pt;margin-right:1.4pt;margin-bottom:7.8pt;margin-left:
+21.1pt;text-indent:-21.1pt;mso-list:l3 level2 lfo6'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>9.10<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";background:#FFEEBF'>最小二乘法</span><span
+lang=EN-US><o:p></o:p></span></h2>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><a
+name="_RefDFC37ECC"><span style='font-family:宋体;mso-bidi-font-family:宋体'>数据图上近似线性</span></a><a
+href="marginnoteapp://note/CB519F7B-63F2-4319-900C-7502DFC37ECC"><span
+style='mso-bookmark:_RefDFC37ECC'><span lang=EN-US style='color:black;
+text-decoration:none;text-underline:none'> </span></span></a><span
+style='mso-bookmark:_RefDFC37ECC'></span><span lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US
+style='background:#FFEEBF'>f(X)=ax+b</span><span style='font-family:宋体;
+mso-bidi-font-family:宋体;background:#FFEEBF'>，各数据点与拟合公式结果差值平方和最小，以</span><span
+lang=EN-US style='background:#FFEEBF'>a</span><span style='font-family:宋体;
+mso-bidi-font-family:宋体;background:#FFEEBF'>、</span><span lang=EN-US
+style='background:#FFEEBF'>b</span><span style='font-family:宋体;mso-bidi-font-family:
+宋体;background:#FFEEBF'>为自变量的二元函数极限求出</span><span lang=EN-US style='background:
+#FFEEBF'>a</span><span style='font-family:宋体;mso-bidi-font-family:宋体;
+background:#FFEEBF'>、</span><span lang=EN-US style='background:#FFEEBF'>b</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:0cm;text-indent:0cm'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:24.0pt'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
